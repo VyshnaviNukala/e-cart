@@ -1,0 +1,41 @@
+
+.navbar-nav{
+	margin-left: 100px;
+
+}
+.main{
+	height: 1500px;
+	background-color:whitesmoke;
+	margin-bottom: 0px;
+}
+.span{
+	color:black ;
+
+}
+a:hover{
+	background-color:skyblue;
+}
+a.active{
+  background-color:lightgray;
+  border-style:ridge;
+  border-radius: 10px;
+  border-color:aqua;
+  /*width: 100px;*/
+}
+footer{
+	margin-top: 30px;
+}
+
+.image #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.image #zoom-In figure:hover img {
+	transform: scale(1.1);
+}
+.mainnn{
+	height: 1000px;
+}
+
+
+@media only screen and (max-width: 600px)
